@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		20FE5E6A1DD1278F005C64AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE5E691DD1278F005C64AD /* main.swift */; };
+		20FE5E711DD127B7005C64AD /* demo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE5E701DD127B7005C64AD /* demo1.swift */; };
+		20FE5E731DD127BF005C64AD /* demo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE5E721DD127BF005C64AD /* demo2.swift */; };
+		20FE5E751DD127C5005C64AD /* demo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE5E741DD127C5005C64AD /* demo3.swift */; };
+		20FE5E771DD127D4005C64AD /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE5E761DD127D4005C64AD /* util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		20FE5E661DD1278F005C64AD /* HeapDemo-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HeapDemo-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FE5E691DD1278F005C64AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		20FE5E701DD127B7005C64AD /* demo1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demo1.swift; sourceTree = "<group>"; };
+		20FE5E721DD127BF005C64AD /* demo2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demo2.swift; sourceTree = "<group>"; };
+		20FE5E741DD127C5005C64AD /* demo3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demo3.swift; sourceTree = "<group>"; };
+		20FE5E761DD127D4005C64AD /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				20FE5E691DD1278F005C64AD /* main.swift */,
+				20FE5E701DD127B7005C64AD /* demo1.swift */,
+				20FE5E721DD127BF005C64AD /* demo2.swift */,
+				20FE5E741DD127C5005C64AD /* demo3.swift */,
+				20FE5E761DD127D4005C64AD /* util.swift */,
 			);
 			path = "HeapDemo-swift";
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20FE5E711DD127B7005C64AD /* demo1.swift in Sources */,
+				20FE5E731DD127BF005C64AD /* demo2.swift in Sources */,
+				20FE5E751DD127C5005C64AD /* demo3.swift in Sources */,
+				20FE5E771DD127D4005C64AD /* util.swift in Sources */,
 				20FE5E6A1DD1278F005C64AD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
